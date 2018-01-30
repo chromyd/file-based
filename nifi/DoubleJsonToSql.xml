@@ -369,7 +369,7 @@
             <id>06102812-e186-3540-0000-000000000000</id>
             <parentGroupId>adaa79fd-58fc-3104-0000-000000000000</parentGroupId>
             <position>
-                <x>62.0</x>
+                <x>61.0</x>
                 <y>209.0</y>
             </position>
             <bundle>
@@ -395,7 +395,7 @@
                 <properties>
                     <entry>
                         <key>flatten-json-separator</key>
-                        <value>.</value>
+                        <value>_</value>
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
@@ -421,7 +421,7 @@
             <parentGroupId>adaa79fd-58fc-3104-0000-000000000000</parentGroupId>
             <position>
                 <x>0.0</x>
-                <y>443.0</y>
+                <y>442.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -531,7 +531,7 @@
                     </entry>
                     <entry>
                         <key>Translate Field Names</key>
-                        <value>false</value>
+                        <value>true</value>
                     </entry>
                     <entry>
                         <key>Unmatched Field Behavior</key>
@@ -546,7 +546,7 @@
                     </entry>
                     <entry>
                         <key>jts-quoted-identifiers</key>
-                        <value>true</value>
+                        <value>false</value>
                     </entry>
                     <entry>
                         <key>jts-quoted-table-identifiers</key>
@@ -584,7 +584,7 @@
             <parentGroupId>adaa79fd-58fc-3104-0000-000000000000</parentGroupId>
             <position>
                 <x>530.0</x>
-                <y>406.0</y>
+                <y>405.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -747,7 +747,7 @@
             <parentGroupId>adaa79fd-58fc-3104-0000-000000000000</parentGroupId>
             <position>
                 <x>393.0</x>
-                <y>634.0</y>
+                <y>633.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -861,7 +861,7 @@
             <parentGroupId>adaa79fd-58fc-3104-0000-000000000000</parentGroupId>
             <position>
                 <x>536.0</x>
-                <y>117.0</y>
+                <y>116.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -972,5 +972,5 @@
             <type>org.apache.nifi.processors.standard.ListenHTTP</type>
         </processors>
     </snippet>
-    <timestamp>01/30/2018 14:44:20 UTC</timestamp>
+    <timestamp>01/30/2018 14:58:03 UTC</timestamp>
 </template>

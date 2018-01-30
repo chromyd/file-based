@@ -1,12 +1,12 @@
 -- drop table weather;
 create table weather (
-        `coord.lon` decimal(4,2),
-        `coord.lat` decimal(4,2),
+        coord_lon decimal(4,2),
+        coord_lat decimal(4,2),
         base varchar(128),
-        `main.temp` decimal(5,2),
-        `wind.speed` decimal(5,2),
-        `wind.deg` integer,
-        `clouds.all` integer,
+        main_temp decimal(5,2),
+        wind_speed decimal(5,2),
+        wind_deg integer,
+        clouds_all integer,
         visibility integer,
         dt integer,
         id integer,
