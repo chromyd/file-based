@@ -6,3 +6,5 @@ create table weather (
         name varchar(128),
         cod integer
 )
+
+select * from weather
