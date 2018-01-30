@@ -1,1 +1,0 @@
-/Users/dusan/.dbvis/Bookmarks/
