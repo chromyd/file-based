@@ -4,4 +4,4 @@
 # docker run --name mongod -d -p 27017:27017 mongo
 
 docker run --name nifi --link mongod:mongo-docker-host --link mysqld:mysql-docker-host -p 8080:8080 -p 8088:8088 -d apache/nifi
-docker cp $(dirname $0)/mysql-connector-java-5.1.45-bin.jar nifi:/opt/nifi/nifi-1.5.0/lib/mysql-connector-java-5.1.45-bin.jar 
+docker cp $(dirname $0)/mysql-connector-java-5.1.45-bin.jar nifi:/opt/nifi/nifi-1.5.0/lib/mysql-connector-java-5.1.45-bin.jar
