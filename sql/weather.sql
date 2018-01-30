@@ -8,6 +8,7 @@ create table weather (
         wind_deg integer,
         clouds_all integer,
         visibility integer,
+        ts timestamp default current_timestamp,
         dt integer,
         id integer,
         name varchar(128),
