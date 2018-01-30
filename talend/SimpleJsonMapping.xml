@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="false" label="cod" length="0"
+        nullable="true" originalDbColumnName="code" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="base" length="0"
+        nullable="true" originalDbColumnName="base" pattern=""
+        precision="0" talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="false" label="dt" length="-1"
+        nullable="true" originalDbColumnName="date" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="id" length="-1"
+        nullable="true" originalDbColumnName="id" pattern=""
+        precision="0" talendType="id_Integer" type="INT"/>
+</schema>
